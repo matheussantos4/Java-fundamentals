@@ -10,11 +10,14 @@ public class ex1Impares {
 
         int X = sc.nextInt();
 
-        for (int i = 1; i <= X; i += 2) {
+        for (int i = 1; i <= X; i++) {
 
             if (i % 2 != 0) {
                 System.out.println(i);
             }
+
+            // Regra é que todo número par é divisível por 2 e o
+            // resto sempre será 0, ou seja, se i % 2 != 0, é ímpar.
 
         }
 
