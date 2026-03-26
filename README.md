@@ -75,6 +75,96 @@ Programa que ilustra o uso de **loop `while`** em um contexto de acumulação.
 
 ---
 
+### 6. **Saque.java**
+
+Programa que simula operações bancárias básicas.
+
+**Funcionalidade:**
+
+- Oferece menu com opções: Saque, Consultar saldo, Depósito, Sair
+- Permite realizar saques (verifica saldo suficiente)
+- Consulta saldo atual
+- Realiza depósitos
+- Continua até o usuário escolher sair
+
+**Conceitos:** Loop while, condicionais if/else, Scanner, operações aritméticas
+
+---
+
+## 🚀 Exercícios - For Curso
+
+Pasta dedicada a exercícios práticos com aplicação de **loops for** em diferentes contextos:
+
+### 1. **ex1Impares.java**
+
+Programa que imprime números ímpares utilizando loop for.
+
+**Funcionalidade:**
+
+- Solicita um número X ao usuário
+- Imprime todos os números ímpares de 1 até X
+- Utiliza operador módulo (%) para verificar se é ímpar
+
+**Conceitos:** Loop for, condicional if, operador módulo, Scanner
+
+---
+
+### 2. **ex2.java**
+
+Programa que conta quantos números estão dentro de um intervalo específico.
+
+**Funcionalidade:**
+
+- Solicita quantidade N de números a serem lidos
+- Para cada número, verifica se está entre 10 e 20 (inclusive)
+- Conta quantos estão "in" (dentro) e "out" (fora)
+- Exibe os contadores finais
+
+**Conceitos:** Loop for, condicional if/else, contadores, Scanner
+
+---
+
+### 3. **ex3.java**
+
+Programa que calcula média ponderada de três valores.
+
+**Funcionalidade:**
+
+- Solicita quantidade N de conjuntos de três números
+- Para cada conjunto, calcula média ponderada (2*a + 3*b + 5*c)
+- (Nota: O programa calcula mas não exibe o resultado - pode ser aprimorado)
+
+**Conceitos:** Loop for, operações aritméticas, Scanner, Locale
+
+---
+
+### 4. **testeNums.java**
+
+Programa que soma uma sequência de números definida pelo usuário.
+
+**Funcionalidade:**
+
+- Solicita quantidade N de números a somar
+- Lê N números inteiros
+- Calcula e exibe a soma total
+
+**Conceitos:** Loop for, acumulação, Scanner, variáveis
+
+---
+
+### 5. **testeRandom.java**
+
+Programa simples que demonstra contagem com loop for.
+
+**Funcionalidade:**
+
+- Imprime números de 0 a 10
+- Utiliza loop for para iteração
+
+**Conceitos:** Loop for, saída de dados
+
+---
+
 ## � Exercícios - While Curso
 
 Pasta dedicada a exercícios práticos com aplicação de **loops while** em diferentes contextos:
@@ -165,6 +255,9 @@ java SwitchCase
 
 javac AtribuiçãoCumulativa.java
 java AtribuiçãoCumulativa
+
+javac Saque.java
+java Saque
 ```
 
 ### Compilar e Executar Exercícios
@@ -182,7 +275,26 @@ javac exerciciosWhileCurso/ex3Combustíveis.java
 java exerciciosWhileCurso.ex3Combustíveis
 ```
 
-> 📝 Como os exercícios estão em um pacote (`exerciciosWhileCurso`), utilize a notação de ponto (.) ao executar, não a barra invertida.
+Para compilar os exercícios na pasta `exerciciosForCurso/`, navegue até a pasta raiz e use:
+
+```powershell
+javac exerciciosForCurso/ex1Impares.java
+java exerciciosForCurso.ex1Impares
+
+javac exerciciosForCurso/ex2.java
+java exerciciosForCurso.ex2
+
+javac exerciciosForCurso/ex3.java
+java exerciciosForCurso.ex3
+
+javac exerciciosForCurso/testeNums.java
+java exerciciosForCurso.testeNums
+
+javac exerciciosForCurso/testeRandom.java
+java exerciciosForCurso.testeRandom
+```
+
+> 📝 Como os exercícios estão em um pacote (`exerciciosForCurso`), utilize a notação de ponto (.) ao executar, não a barra invertida.
 
 ## 📝 Requisitos
 
@@ -195,7 +307,7 @@ Este repositório serve como base para praticar:
 
 - Sintaxe fundamental de Java
 - Variáveis e tipos de dados
-- Estruturas de controle (if/else, while)
+- Estruturas de controle (if/else, while, for)
 - Entrada e saída de dados
 - Programação orientada a procedimentos
 

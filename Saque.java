@@ -27,7 +27,7 @@ public class Saque {
                 if (saque < saldo) {
 
                     System.out.println("Saque realizado!");
-                    saque -= saldo;
+                    saldo -= saque;
                 } else
                     System.out.println("Saldo insuficiente!");
 
