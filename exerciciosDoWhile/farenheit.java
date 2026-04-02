@@ -14,27 +14,27 @@ public class farenheit {
         double C = 0;
 
         do {
-            System.out.println("Selecione a conversão: Farenheit para Celcius(.1)");
-            System.out.println("Celcius para Farenheit(.2)");
+            System.out.println("Selecione a conversão: Farenheit para Celcius(1)");
+            System.out.println("Celcius para Farenheit(2)");
             System.out.println("Sair(3)");
             op = sc.nextInt();
 
             if (op == 1) {
 
-                System.out.println("Digite a temperatura em Farenheit: ");
+                System.out.print("Digite a temperatura em Farenheit: ");
                 fh = sc.nextInt();
                 C = (fh - 32) / 1.8;
 
-                System.out.println("Temperatura em Celcius: %.2f%n" + C);
+                System.out.printf("Temperatura em Celsius: %.2f%n", C);
 
             } else if (op == 2) {
-                System.out.println("Digite a temperatura em Celcius:");
+                System.out.print("Digite a temperatura em Celcius: ");
                 C = sc.nextDouble();
                 fh = (C * 1.8) + 32;
 
-                System.out.println("Temperatura em Ferenheit: %.2f%n" + fh);
+                System.out.printf("Temperatura em Farenheit: %.2f%n", fh);
 
-            } else
+            } else if (op != 3)
                 System.out.println("Opção inválida.");
 
         } while (op != 3);
