@@ -221,7 +221,27 @@ Programa que realiza uma **votação sobre tipo de combustível preferido** e co
 **Conceitos:** Loop while, switch/case (implícito com if/else), contadores, acumulação de dados
 
 ---
+## 🔄 Exercícios - Do While
 
+Pasta dedicada a exercícios práticos com aplicação de **loops do-while** em diferentes contextos:
+
+### 1. **farenheit.java**
+
+Programa que realiza **conversão de temperatura** entre Fahrenheit e Celsius com loop do-while.
+
+**Funcionalidade:**
+
+- Exibe menu de opções repetidamente até o usuário escolher sair
+- Opção 1: Converte temperatura de **Fahrenheit para Celsius** utilizando a fórmula C = (F - 32) / 1.8
+- Opção 2: Converte temperatura de **Celsius para Fahrenheit** utilizando a fórmula F = (C × 1.8) + 32
+- Opção 3: Sair do programa
+- Utiliza `Locale.of("pt", "BR")` para permitir entrada de números decimais com vírgula (padrão brasileiro)
+- Exibe resultados com 2 casas decimais de precisão
+- Valida entrada e exibe mensagem de erro para opções inválidas
+
+**Conceitos:** Loop do-while, condicionais if/else, Scanner, Locale, conversão de tipos, fórmulas matemáticas, saída formatada
+
+---
 ## �🚀 Como Compilar e Executar
 
 ### 1) Compilar
@@ -261,6 +281,13 @@ java Saque
 ```
 
 ### Compilar e Executar Exercícios
+
+Para compilar os exercícios na pasta `exerciciosDoWhile/`, navegue até a pasta raiz e use:
+
+```powershell
+javac exerciciosDoWhile/farenheit.java
+java exerciciosDoWhile.farenheit
+```
 
 Para compilar os exercícios na pasta `exerciciosWhileCurso/`, navegue até a pasta raiz e use:
 
