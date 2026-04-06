@@ -131,7 +131,7 @@ Programa que calcula média ponderada de três valores.
 **Funcionalidade:**
 
 - Solicita quantidade N de conjuntos de três números
-- Para cada conjunto, calcula média ponderada (2*a + 3*b + 5*c)
+- Para cada conjunto, calcula média ponderada (2*a + 3*b + 5\*c)
 - (Nota: O programa calcula mas não exibe o resultado - pode ser aprimorado)
 
 **Conceitos:** Loop for, operações aritméticas, Scanner, Locale
@@ -221,6 +221,7 @@ Programa que realiza uma **votação sobre tipo de combustível preferido** e co
 **Conceitos:** Loop while, switch/case (implícito com if/else), contadores, acumulação de dados
 
 ---
+
 ## 🔄 Exercícios - Do While
 
 Pasta dedicada a exercícios práticos com aplicação de **loops do-while** em diferentes contextos:
@@ -242,6 +243,7 @@ Programa que realiza **conversão de temperatura** entre Fahrenheit e Celsius co
 **Conceitos:** Loop do-while, condicionais if/else, Scanner, Locale, conversão de tipos, fórmulas matemáticas, saída formatada
 
 ---
+
 ## �🚀 Como Compilar e Executar
 
 ### 1) Compilar
