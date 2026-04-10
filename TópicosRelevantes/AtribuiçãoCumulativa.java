@@ -1,3 +1,5 @@
+package TópicosRelevantes;
+
 public class AtribuiçãoCumulativa {
 
     // Código simples com atribuição cumulativa.

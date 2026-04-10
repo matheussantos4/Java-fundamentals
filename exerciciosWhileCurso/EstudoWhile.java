@@ -1,3 +1,4 @@
+package exerciciosWhileCurso;
 
 import java.util.Scanner;
 
