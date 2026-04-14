@@ -9,9 +9,9 @@ public class mainTriangulo {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
-        Triangulo x, y;
-        x = new Triangulo();
-        y = new Triangulo();
+        Tri x, y;
+        x = new Tri();
+        y = new Tri();
 
         System.out.println("Enter the measures of triangle X: ");
         x.a = sc.nextDouble();
